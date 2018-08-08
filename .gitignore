@@ -1,0 +1,8 @@
+# LaTeX-generated files #
+#########################
+
+*.out
+*.synctex.gz
+*.log
+*.aux
+*.pdf

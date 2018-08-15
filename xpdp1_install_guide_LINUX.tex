@@ -43,7 +43,7 @@
 			\item[NOTE:] You have several options here, including changing the preferred install location, enabling MPI (I would not recommend this as the newest version of OpenMPI is not compatible with XGRAFIX. Changing XGRAFIX to fit would be rather time-consuming!), and adding configuration options, using the \verb|confopts| variable near the top of the file. 
 		\end{enumerate}
 		
-		\item Make sure that the variable \verb|precision=double| (not \verb|float|). It will cause an error later on if it is set to \verb|float|. Change \verb|confopts| to the following:
+		\item Make sure that the variable \verb|precision=double| (not \verb|float|). It will cause an error later on if it is set to \verb|float|. Add the first three following lines before \verb|confopts| and then change \verb|confopts| to match the options listed:
 		\begin{verbatim}
 			        
 			        libdir="/usr/lib/x86_64-linux-gnu/"

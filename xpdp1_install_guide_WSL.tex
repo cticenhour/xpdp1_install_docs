@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{url}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\pagenumbering{arabic}
+
+\title{Installing XPDP1: Windows Subsystem for Linux (WSL) Edition}
+\author{}
+\date{Last updated: August 2018}
+
+\begin{document}
+	\maketitle
+
+	\section{Installing WSL}
+
+	\noindent Since WSL is still considered ``beta" software and thus changes frequently, any installation guide will be also changing frequently. To make things easier and more up-to-date until the platform stabilizes further, Microsoft's installation guide is the best to use here. It can be found at \url{https://docs.microsoft.com/en-us/windows/wsl/install-win10}. \\
+	
+	\noindent For any issues encountered while installing WSL, please refer to the Troubleshooting section in the above guide. 
+
+	\section{Installing XPDP1}
+
+	\noindent Now that WSL is installed and configured on your machine, please proceed with the ``Installing XPDP1: Linux Edition" guide. \\
+
+	\noindent After completing this, XPDP1 should be installed and configured! To read the full XPDP1 documentation, see the file \verb|xpdp1_manual.ps| file inside of the \verb|doc| directory, which can be opened natively in Ubuntu. To create this file in another format (like PDF) run the \verb|xpdp1_manual.tex| file in a compatible PDF\LaTeX \hspace{1pt} compiler. To see a quick rundown of how to use the XPDP1 command at any time, simply type \verb|xpdp1 --help| in any Terminal command prompt.
+\end{document}

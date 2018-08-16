@@ -22,4 +22,4 @@ Creating a PDF copy of `xpdp1_install_guide_LINUX.tex` or `xpdp1_install_guide_W
 
 ## Contributing
 
-If you would like to contribute to updates on the install guide, please fork the repository, update your fork, and make a pull request.
+If you would like to contribute to updates on the install guide, please fork the repository, clone your fork, create a branch, make and commit your changes, push your changes back up to GitHub, and make a pull request.
